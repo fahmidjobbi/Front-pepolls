@@ -1,0 +1,9 @@
+  <svg id="Messages_icon" data-name="Messages icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50">
+  <g id="Groupe_5779" data-name="Groupe 5779" transform="translate(-829.663 -952.604)">
+    <circle id="Ellipse_274" data-name="Ellipse 274" cx="25" cy="25" r="25" transform="translate(829.663 952.604)" fill="#fff" opacity="0"/>
+    <g id="Groupe_15812" data-name="Groupe 15812" transform="translate(107.268 -0.258)">
+      <path id="Tracé_38577" data-name="Tracé 38577" d="M756.732,987.2l-.164.162h-8.674a9,9,0,1,1,6.364-2.636l2.474,2.474a12.5,12.5,0,1,0-8.838,3.662h12.5l-3.5-3.5Z" fill="#0857e0"/>
+      <path id="Tracé_38578" data-name="Tracé 38578" d="M751.658,978.316a3.5,3.5,0,0,1-7,0h-2a5.5,5.5,0,0,0,11,0Z" fill="#1a2552"/>
+    </g>
+  </g>
+</svg>

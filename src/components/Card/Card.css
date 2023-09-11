@@ -1,0 +1,72 @@
+.card {
+    background-color: white;
+    width: 34%;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    margin: 7% auto 0;
+    padding: 2% 1%;
+    border: none;
+  }
+   .card-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+      margin: 100px auto 0;
+    }
+    .card-element {
+      gap: 0%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        max-width: 520px;
+        min-width: 220px;
+        margin: 7% auto 0;
+      }
+    .card-element {
+      gap: 10%;
+    }
+    .bedit
+    {
+      width: 120px;
+    }
+  }
+  
+  
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .card {
+      max-width: 520px;
+      min-width: 220px;
+      margin: 7% auto 0;
+    }
+    .card-element {
+      gap: 15%;
+    }
+    .bedit
+    {
+      width: 120px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .card {
+      max-width: 960px;
+       margin: 7% auto 0;
+    }
+    .card-element {
+      gap: 20%;
+    }
+    .bedit
+    {
+      width: 120px;
+    }
+  }
+  

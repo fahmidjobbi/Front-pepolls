@@ -1,0 +1,21 @@
+.subtitle {
+    color: #1D2C59;
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .subtitle {
+        font-size: 12px;
+    }
+    .man {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+}
+
+  

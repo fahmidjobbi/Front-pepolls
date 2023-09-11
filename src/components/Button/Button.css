@@ -1,0 +1,45 @@
+.btn {
+    border-radius: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    height: 45px;
+    border: none;
+  }
+  
+  .btn p {
+    color: #1d2c59;
+    font-size: 12px;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  /* Styles pour les écrans jusqu'à 768px */
+  @media (max-width: 768px) {
+    .btn {
+      width: 100%;
+      height: 55px;
+    }
+    .btn-light {
+      width: 100%;
+      height: 80px;
+    }
+  }
+  
+  /* Styles pour les écrans entre 768px et 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .btn {
+      width:100%;
+    }
+  }
+  
+  /* Styles pour les écrans entre 1024px et 1440px */
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .btn {
+      width:100%;
+    }
+  }
+  

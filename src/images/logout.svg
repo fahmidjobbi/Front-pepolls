@@ -1,0 +1,10 @@
+   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 30 30">
+  <g id="Groupe_15892" data-name="Groupe 15892" transform="translate(-20 -20)">
+    <circle id="_1" data-name="1" cx="15" cy="15" r="15" transform="translate(20 20)" fill="none"/>
+    <g id="Groupe_15765" data-name="Groupe 15765" transform="translate(1500.375 709.763)">
+      <line id="Ligne_186" data-name="Ligne 186" x2="7.5" transform="translate(-1474.375 -674.263)" fill="none" stroke="#1a2552" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+      <path id="Tracé_509" data-name="Tracé 509" d="M-1465.625-663.013l-2.5-2.5,2.5-2.5" transform="translate(-6.25 -8.75)" fill="none" stroke="#1a2552" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+      <path id="Tracé_510" data-name="Tracé 510" d="M-1460.625-663.846h0a3.333,3.333,0,0,0,3.333,3.333h3.333a3.334,3.334,0,0,0,3.333-3.333v-8.333a3.333,3.333,0,0,0-3.333-3.333h-3.333a3.333,3.333,0,0,0-3.333,3.333h0" transform="translate(-8.75 -6.25)" fill="none" stroke="#1a2552" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+    </g>
+  </g> 
+</svg>

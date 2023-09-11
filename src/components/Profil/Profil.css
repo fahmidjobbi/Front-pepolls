@@ -1,0 +1,95 @@
+.details {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+	border-radius: 15px;
+	text-align: left;
+	line-height: 4px;
+
+  }
+  
+  
+  .profile-image {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: #23366d;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  
+  .name {
+	font-weight: bold;
+	color: #23366d;
+	font-size: 14px;
+  }
+  
+  .username {
+	font-size: 12px;
+	color: #23366d;
+	line-height: 10px;
+}
+
+  
+  
+  @media (max-width: 768px) {
+	.details {
+	  height: 60px;
+	}
+  
+	.profile-image {
+	  height: 40px;
+	  width: 40px;
+	 
+	}
+  
+	.name {
+	  font-size: 10px;
+	}
+  
+	.username {
+	  font-size: 8px;
+	}
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+	.details {
+	  height: 70px;
+	}
+  
+	.profile-image {
+	  height: 45px;
+	  width: 45px;
+	}
+  
+	.name {
+	  font-size: 12px;
+	}
+  
+	.username {
+	  font-size: 10px;
+	}
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1440px) {
+	.details {
+	  height: 80px;
+	}
+  
+	.profile-image {
+	  height: 50px;
+	  width: 50px;
+	}
+  
+	.name {
+	  font-size: 14px;
+	}
+  
+	.username {
+	  font-size: 12px;
+	}
+  }
+  

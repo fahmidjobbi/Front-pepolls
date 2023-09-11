@@ -1,0 +1,38 @@
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    /* autres styles */
+  }
+  
+  .pub {
+    width: 100%;
+    /* autres styles */
+  }
+  
+  @media (max-width: 768px) {
+    .center-content {
+      flex-direction: column;
+    }
+    .card {
+      width: 90%;
+      /* autres styles */
+    }
+    .pub {
+      /* autres styles */
+    }
+  }
+  

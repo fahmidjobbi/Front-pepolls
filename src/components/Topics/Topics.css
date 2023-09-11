@@ -1,0 +1,48 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .modal-content {
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+ 
+  .topics{
+ 
+   margin: 15% 0% 0% 0%;
+  }
+
+.btns {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.tete{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+.groupe{
+  background-color: rgb(200, 208, 241);
+  margin: 2%;
+}
+
+@media (max-width: 768px) {
+  .groupe {
+
+    margin: 0 auto;
+  }
+}

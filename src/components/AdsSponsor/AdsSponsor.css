@@ -1,0 +1,237 @@
+.ads-sponsor {
+    max-width: 250px;
+    height: 70%;
+    position: fixed;
+    top: 57px;
+    right: 0;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 10px;
+    z-index: 1;
+    border-radius: 7px;
+    overflow-y: scroll; /* add scrollbar */
+    overflow-x: hidden; /* hide horizontal scrollbar */
+    /* sidebar design */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 20px;
+    border: 1px solid #e5e5e5;
+  }
+  
+  .ads-sponsor::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .ads-sponsor::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf;
+    border-radius: 5px;
+  }
+  
+  
+  .ads-sponsor a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    color: #23366d;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  
+  .ads-sponsor a:hover {
+    color: #2626f7;
+  }
+  
+  .ads-sponsor span {
+    margin-right: 5px;
+    font-weight: bold;
+    color: rgb(75, 75, 99);
+  }
+  
+  .profil-ads-sponsor {
+    background-color: #f0f2f4;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 0.4px;
+    margin-top: 2px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+  
+  
+  
+  
+    
+  @media (max-width: 935px) {
+    .ads-sponsor {
+      height: 50px;
+      
+      max-width: 767px;
+      min-width: 150px;
+      position: fixed;
+      bottom: 0;
+      top: auto;
+      padding-top: 10px;
+      padding-right: 2px;
+      display: flex;
+      text-align: center;
+      justify-content: center; /* center horizontally */
+      align-items: center;
+    }
+    
+    .profil-ads-sponsor {
+        display: none;
+    }
+  
+    .ads-sponsor a {
+      font-size: 8px;
+      padding-top: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+     
+    }
+  
+    .ads-sponsor span {
+      display: none;
+    }
+  }
+  
+  
+  @media (min-width: 935px) and (max-width: 1024px) {
+    .ads-sponsor {
+    width: 100%
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .ads-sponsor {
+      width: 100%
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .ads-sponsor {
+      width: 100%;
+    }
+  }
+  
+  
+  .ads-sponsor img {
+    max-width: 45%;
+    max-height: 70%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+  }
+  
+  .ads-sponsor .image-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(75, 75, 99);
+    margin-left: 40px;
+  }
+
+  
+  .ads-sponsor .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 85%;
+    max-height: 180%;
+    margin-right: 9px;
+  }
+
+  .vc-column-inner.wpb-wrraper {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .ads-sponsor .img-gift {
+    max-width: 20%;
+    max-height: 20%;
+    float: right;
+    margin-left: 10px;
+    margin-right: -20px;
+    margin-bottom: 8px;
+  }
+  
+  .ads-sponsor  image-gift-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(75, 75, 99);
+    margin-left: 40px;
+  }
+
+  .ads-sponsor .a-pages {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 22px;
+    color: #23366d;
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  .profil-ads-sponsor-a-pages {
+    background-color: #f0f2f4;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+
+  .news span{
+    text-align: center;
+    font-size: 9px;
+    
+  }
+
+  .news img{
+    height: 70px;
+    width: 70px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-top: -10px;
+
+
+  }
+
+  .news .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: 85%;
+    max-height: 180%;
+    margin-right: 9px;
+  }
+  
+  .space {
+    margin-top: 20px;
+  }
+  
+
+
+  

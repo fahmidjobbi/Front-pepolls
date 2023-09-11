@@ -1,0 +1,31 @@
+.form-control {
+    background-color: #f0f2f4;
+    height: 45px;
+    width: 100%;
+    border-radius: 15px;
+    color: gray;
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    .form-control {
+      width: 100%;
+      
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .form-control {
+      width: 100%;
+      
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .form-control {
+      width: 100%;
+    }
+  }
+  
+  
